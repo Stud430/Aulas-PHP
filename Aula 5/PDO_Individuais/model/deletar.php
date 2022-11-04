@@ -6,7 +6,7 @@
 
 <?php
 	// pega o ID da URL
-	$id = $_POST["id_deletar"];
+	$id = $_GET["id"];
 	 
 	// remove do banco
 	$sql = "DELETE FROM usuarios WHERE id_usuario = :id";
