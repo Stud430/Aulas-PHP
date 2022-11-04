@@ -88,8 +88,7 @@
 
       <td>
         <center>
-
-          <a href="../model/deletar.php"><img src="deletar.png" name="id_deletar"></a>
+          <a class="Deletar" href="<?php echo "../model/deletar.php?id={$exibir['id_usuario']}"; ?>"><img src="deletar.png" name="id_deletar"></a>
 
         <!--  
           <form action="../model/deletar.php" method="post"> 
